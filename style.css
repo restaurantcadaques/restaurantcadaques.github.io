@@ -1,0 +1,348 @@
+/*
+Theme Name: Clean Start
+Theme URI: http://clean-start-theme.com/
+Description: Starting point for custom theme making.
+Version: 1.1
+Author: Ackmann & Dickenson
+Author URI: http://ackmanndickenson.com
+
+Tags: clean, basic, starter
+
+The CSS and HTML are released under the GPL:
+http://www.opensource.org/licenses/gpl-3.0.html
+*/
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Open sans' !important;
+    font-size: 16px;
+    line-height: 23px;
+    color: #666;
+    background-color: #ffffff;
+    font-weight: 300;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #111;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #fff;
+}
+
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+input.btn.btn-success.btn-block {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+strong {
+    font-weight: 500;
+    color: #111;
+}
+
+a.btn-large.btn-warning.btn {
+    font-weight: bold;
+}
+
+.well p {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+.datepicker {
+    font-size: 13px;
+    font-family: arial;
+}
+
+
+.logo {
+padding-top: 25px;
+width: 150px;
+padding-bottom: 13px;
+}
+
+input {
+    width: 95%;
+    padding: 10px !important;
+}
+
+.supra-header i.fa.fa-mobile {
+font-size: 30px;
+margin-right: 8px;
+line-height: 27px;
+float: left;
+}
+
+.cartas {
+    font-size: 30px !important;
+    margin-top: 34px;
+    margin-bottom: 3px !important;
+}
+
+.numero {
+float: left;
+margin-top: 4px;
+}
+.supra-header a.btn {
+margin-top: -4px;
+padding: 2px 12px;
+margin-bottom: -3px;
+}
+
+button.btn.btn-navbar.botonav {
+margin-top: 40px;
+}
+
+#overview img {
+margin: 30px 0;
+border-radius: 5px;
+}
+
+#overview h3 {
+line-height: 27px;
+margin-bottom: 20px;
+}
+
+h2.paginaheader {
+text-align: left;
+font-size: 31px;
+padding-top: 34px;
+text-shadow: 3px 2px 2px #000;}
+
+ul, ol {
+padding: 0;
+margin: 0 0 10px 10px;
+list-style-type: none;
+}
+
+.enunciadoheader{
+background: #f0f0f0;
+padding: 10px 30px 30px 30px;
+border-radius: 10px;}
+
+.fa-eur, .fa-desktop, .fa-bullhorn {
+color: #ff9900;
+font-size: 75px;
+}
+
+.sub-menu {
+margin: 0;
+list-style: none;
+}
+
+
+.fa-check-circle {
+color: #29BF15;
+font-size: 16px;
+}
+
+
+.fa-times-circle-o
+ {
+color: #ccc;
+font-size: 16px;
+}
+
+
+#main-menu {
+margin-top: 35px;
+}
+
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.formhome label.gfield_label {
+padding-top: 8px;
+font-size: 12px;
+text-align:   right;
+}
+
+.gform_wrapper .right_label input.medium, .gform_wrapper .right_label select.medium, .gform_wrapper .left_label input.medium, .gform_wrapper .left_label select.medium {
+width: 53%;
+}
+
+
+ul#gform_fields_1 {
+float: left;
+width: 100%;
+}
+
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+width: 100%;
+}
+
+
+ul.formright {
+float: right;
+border-left:1px solid #ccc;
+padding: 19px;
+width:  45%;
+}
+
+
+#input_1_7, #input_1_8, #input_1_5, #input_1_2 #input_1_4 {
+width: 98% !important;
+clear: none !important;
+float: left !important;
+}
+
+li#field_1_7, #field_1_8 {
+width: 45% !important;
+float: left !important;
+clear: none !important;
+}
+
+#field_1_5, #field_1_2, #field_1_4 {
+  margin-right: 3% !important;
+  width:30% !important;
+  clear: none !important;
+  float:left;
+}
+
+
+#field_1_8 {margin-left:8% !important;}
+
+input#input_1_1 {
+width: 97%;
+}
+
+input#input_1_2 {
+width: 86%;
+}
+input#input_1_3 {
+width: 86%;
+}
+
+.gform_wrapper .gform_footer {
+padding: 16px 0 10px 0;
+margin: 16px 0 0 0;
+clear: both;
+text-align: center;
+}
+
+#field_1_4 label.gfield_label {
+font-weight: bold;
+text-align: left;
+font-size: 12px;
+margin-bottom: 12px;
+}
+
+
+
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+ .dropdown-menu {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1000;
+display: none;
+float: left;
+min-width: 160px;
+padding: 5px 0;
+margin:0px;
+list-style: none;
+background-color: #ffffff;
+border: 1px solid #ccc;
+border: 1px solid rgba(0, 0, 0, 0.2);
+-moz-border-radius: 6px;
+border-radius: 6px;
+/* -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+}
+
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+color: #555555;
+text-decoration: none;
+background: none; 
+-webkit-box-shadow: none; 
+-moz-box-shadow: none;
+box-shadow: none;
+border-bottom: 3px solid #00a6df;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+.marco {
+margin: 50px -20px !important;
+padding: 50px 20px !important;
+}
+
+.inic {margin-bottom: 40px}
+
+}
+
+@media (min-width: 980px) {
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 940px;
+}
+
+.formtexthome {margin-top:70px;}
+
+}
+
+
+.supra-header{background: rgba(0,0,0,0.90); padding: 12px 0px; position: fixed; width: 100%; z-index: 99; }
+
+
+
