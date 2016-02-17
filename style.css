@@ -342,7 +342,7 @@ width: 940px;
 }
 
 
-.supra-header{background: rgba(0,0,0,0.90); padding: 12px 0px; position: fixed; width: 100%; z-index: 99; }
+.supra-header{background: rgba(0,0,0,0.90); padding: 12px 0px; position: fixed !important; width: 100%; z-index: 99; }
 
 
 
