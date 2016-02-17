@@ -105,6 +105,10 @@ float: left;
     margin-bottom: 3px !important;
 }
 
+img.example-image.img-rounded.slide-image:hover {
+    opacity: 0.5;
+}
+
 .numero {
 float: left;
 margin-top: 4px;
